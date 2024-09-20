@@ -5,14 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="251cc7df-2f36-4e2a-a753-023d9210ec39" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/cinema/model/Cinema.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/cinema/model/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/cinema/model/Movie.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/cinema/model/Schedule.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/cinema/model/Seat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/cinema/model/Threatre.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/cinema/model/Ticket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/cinema/model/TimeZone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/cinema/dao/AbstractDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/cinema/dao/CustomerDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/cinema/dao/TicketDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/cinema/database/PgSqlConnectionFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/cinema/test/CinemaTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CinemaTicketBookingSystem.iml" beforeDir="false" afterPath="$PROJECT_DIR$/CinemaTicketBookingSystem.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/cinema/model/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cinema/model/Customer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,21 +31,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "Kusk24"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Kusk24&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "git@github.com:Kusk24/CinemaTicketBookingSystem.git",
-    "accountId": "c6ecef39-6908-4a1c-a7f3-f3f0998f4311"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;git@github.com:Kusk24/CinemaTicketBookingSystem.git&quot;,
+    &quot;accountId&quot;: &quot;c6ecef39-6908-4a1c-a7f3-f3f0998f4311&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="2m1SX77ZmLZlS8kAwmMTZucebhL" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -51,11 +53,26 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.CinemaTest.executor": "Run",
+    "JAR Application.Unnamed.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true"
+    "kotlin-language-version-configured": "true",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "advanced.settings"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="Unnamed" type="JarApplication" nameIsGenerated="true">
+      <option name="JAR_PATH" value="$USER_HOME$/Downloads/postgresql-42.6.2.jar" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2" />
+    </configuration>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -66,5 +83,10 @@
       <updated>1726242625587</updated>
     </task>
     <servers />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/CinemaTicketBookingSystem$CinemaTest.ic" NAME="CinemaTest Coverage Results" MODIFIED="1726638571375" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>com.cinema.test.*</FILTER>
+    </SUITE>
   </component>
 </project>
