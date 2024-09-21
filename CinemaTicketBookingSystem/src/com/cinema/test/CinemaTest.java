@@ -38,7 +38,7 @@ public class CinemaTest {
                     registerCustomer();
                     break;
                 case 4:
-                    destrcoyCustomer();
+                    destroyCustomer();
                     break;
                 case 5:
                     exit = true;
