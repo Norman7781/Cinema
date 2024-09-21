@@ -1,5 +1,8 @@
 package com.cinema.model;
 
+import com.cinema.dao.AbstractDao;
+
+import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 

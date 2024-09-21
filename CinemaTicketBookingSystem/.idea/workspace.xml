@@ -5,16 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="251cc7df-2f36-4e2a-a753-023d9210ec39" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/cinema/dao/AbstractDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/cinema/dao/CustomerDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/cinema/dao/TicketDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/cinema/database/PgSqlConnectionFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/cinema/test/CinemaTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CinemaTicketBookingSystem.iml" beforeDir="false" afterPath="$PROJECT_DIR$/CinemaTicketBookingSystem.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/cinema/dao/AbstractDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cinema/dao/AbstractDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/cinema/dao/CustomerDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cinema/dao/CustomerDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/cinema/dao/TicketDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cinema/dao/TicketDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/cinema/model/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cinema/model/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/cinema/test/CinemaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cinema/test/CinemaTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,20 +47,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.CinemaTest.executor": "Run",
-    "JAR Application.Unnamed.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "advanced.settings"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.CinemaTest.executor&quot;: &quot;Run&quot;,
+    &quot;JAR Application.Unnamed.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;advanced.settings&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="Unnamed" type="JarApplication" nameIsGenerated="true">
       <option name="JAR_PATH" value="$USER_HOME$/Downloads/postgresql-42.6.2.jar" />
